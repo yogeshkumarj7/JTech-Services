@@ -30,12 +30,15 @@ function ServicesOverview() {
     if (!container || isDragging || isHovering) return;
 
     const scrollInterval = setInterval(() => {
+      // Check if we've reached the end of scrollable content
       if (container.scrollLeft >= container.scrollWidth - container.clientWidth) {
+        // Reset to start
         container.scrollLeft = 0;
       } else {
+        // Scroll smoothly and at reduced speed
         container.scrollBy({ left: 1, behavior: 'smooth' });
       }
-    }, 20); 
+    }, 20); // Slower scroll speed
 
     return () => clearInterval(scrollInterval);
   }, [isDragging, isHovering]);
