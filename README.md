@@ -63,7 +63,7 @@ npm run dev
 
 ## 🌐 Deployment
 
-**Live Demo**: [Update with your Vercel/Netlify link] 🔗
+**Live Demo**: j-tech-services.vercel.app 🔗
 
 ## 📦 Project Structure
 
