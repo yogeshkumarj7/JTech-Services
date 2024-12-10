@@ -36,8 +36,8 @@ const GifGenerator = () => {
 
   if (error) {
     return (
-      <div className="max-w-md mx-auto p-6 bg-red-50 rounded-2xl shadow-2xl text-center mt-24">
-        <h2 className="text-2xl font-bold text-red-600 mb-4">
+      <div className="max-w-md mx-auto p-6 bg-red-50 rounded-2xl shadow-2xl text-center my-10 ">
+        <h2 className="text-2xl font-bold text-red-600 mb-4 ">
           Error Loading GIF
         </h2>
         <p className="text-red-500 mb-6">{error}</p>
@@ -52,7 +52,7 @@ const GifGenerator = () => {
   }
 
   return (
-    <div className="max-w-md mx-auto p-6 mt-24 mb-10 bg-gradient-to-br from-purple-50 to-blue-50 rounded-2xl shadow-2xl">
+    <div className="max-w-md mx-auto p-6 mt-24 mb-10 bg-gradient-to-br from-purple-50 to-blue-50 rounded-2xl shadow-2xl ">
       <div className="text-center">
         <h2 className="text-3xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-blue-500">
           Random Gif Generator

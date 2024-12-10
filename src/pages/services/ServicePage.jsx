@@ -3,11 +3,11 @@ import ServiceList from '../../utils/ServiceList';
 
 const ServicePage = () => {
   return (
-    <div className="container mx-auto px-4 py-8 mt-24">
+    <div className="container mx-auto px-6 md:px-12 py-8 mt-24">
       <h2 className="text-4xl flex justify-center font-extrabold mb-12 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
         Our Services
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mx-20">
         {ServiceList.map((service) => {
           const IconComponent = service.icon;
           return (
