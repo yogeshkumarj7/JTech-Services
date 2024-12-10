@@ -2,7 +2,7 @@ import { useNavigate } from 'react-router-dom';
 
 const HeroSection = () => {
   const navigate = useNavigate();
-
+ 
   return (
     <div className="relative flex items-center justify-center h-[100vh] overflow-hidden bg-[url('/hero-bg1.jpg')] bg-cover bg-center">
       <div className="absolute inset-0 bg-gradient-to-tr from-black/90 via-black/60 to-transparent"></div>
